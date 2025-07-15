@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GitHub Demo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f6f8fa;
+    }
+    .navbar {
+      background-color: #24292f;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+    }
+    .navbar h1 {
+      margin: 0;
+      font-size: 20px;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid #d1d5da;
+      border-radius: 6px;
+    }
+    .repo-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .repo-title {
+      font-size: 24px;
+      font-weight: 600;
+    }
+    .btn {
+      background-color: #2da44e;
+      color: white;
+      border: none;
+      padding: 6px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .file-list {
+      margin-top: 20px;
+      border-top: 1px solid #e1e4e8;
+    }
+    .file-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px solid #e1e4e8;
+    }
+    .file-name {
+      color: #0969da;
+      text-decoration: none;
+    }
+    .file-meta {
+      color: #57606a;
+    }
+    .footer {
+      text-align: center;
+      color: #57606a;
+      font-size: 12px;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <h1>GitHub Demo</h1>
+  </div>
+  <div class="container">
+    <div class="repo-header">
+      <div class="repo-title">user / demo-repo</div>
+      <button class="btn">Code</button>
+    </div>
+    <div class="file-list">
+      <div class="file-item">
+        <a class="file-name" href="#">index.html</a>
+        <div class="file-meta">1 KB · Updated 3 days ago</div>
+      </div>
+      <div class="file-item">
+        <a class="file-name" href="#">style.css</a>
+        <div class="file-meta">2 KB · Updated 2 days ago</div>
+      </div>
+      <div class="file-item">
+        <a class="file-name" href="#">app.js</a>
+        <div class="file-meta">3 KB · Updated yesterday</div>
+      </div>
+      <div class="file-item">
+        <a class="file-name" href="#">README.md</a>
+        <div class="file-meta">1 KB · Updated 5 days ago</div>
+      </div>
+      <div class="file-item">
+        <a class="file-name" href="#">LICENSE</a>
+        <div class="file-meta">1 KB · Updated 1 month ago</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    &copy; 2025 GitHub Demo. This is a mock interface.
+  </div>
+</body>
+</html>
